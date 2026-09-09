@@ -1,10 +1,10 @@
-import { FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi'
+import { FiCode, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 import { profile } from '../data/portfolio'
 
 const iconMap = {
   github: FiGithub,
   linkedin: FiLinkedin,
-  twitter: FiTwitter,
+  hackerrank: FiCode,
   mail: FiMail,
 }
 

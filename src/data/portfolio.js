@@ -1,103 +1,104 @@
 export const profile = {
   name: 'Arkaprava Chakrabarti',
-  role: 'Full-Stack Developer',
-  tagline: 'I build fast, accessible web apps with clean UI and solid engineering underneath.',
-  location: 'India',
+  role: 'QA Engineer & Backend Developer',
+  tagline:
+    'MCA student and IT Intern building reliable software through test automation, Java/Spring Boot backends, and real-time monitoring dashboards.',
+  location: 'Kolkata, West Bengal, India',
+  phone: '+91 7003955378',
   email: 'chakrabartiarkaprava@gmail.com',
   resumeUrl: '#',
   socials: [
-    { label: 'GitHub', href: 'https://github.com/', icon: 'github' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/', icon: 'linkedin' },
-    { label: 'Twitter', href: 'https://twitter.com/', icon: 'twitter' },
+    { label: 'GitHub', href: 'https://github.com/ARKA7781', icon: 'github' },
+    { label: 'LinkedIn', href: 'https://linkedin.com/in/arkaprava-chakrabarti1', icon: 'linkedin' },
+    { label: 'HackerRank', href: 'https://hackerrank.com/profile/chakrabartiarka1', icon: 'hackerrank' },
     { label: 'Email', href: 'mailto:chakrabartiarkaprava@gmail.com', icon: 'mail' },
   ],
 }
 
 export const about = {
   summary: [
-    "I'm a developer who enjoys turning ideas into polished, working products — from the first wireframe to a production deployment.",
-    'My focus is on writing maintainable code, thoughtful UI, and performance that holds up under real usage. I like working across the stack, but I care most about the experience on the other side of the screen.',
+    'MCA student and IT Intern with hands-on experience in manual and automated software testing (Selenium, Java), backend development using Java and Spring Boot, and building real-time monitoring dashboards with Grafana, Prometheus, and Amazon AWS CloudWatch.',
+    'Skilled in SQL-based data validation, RESTful API development, microservices architecture, and Agile collaboration, with proven project experience in fintech testing, payment gateway integration, and full-stack application development.',
   ],
   highlights: [
-    { label: 'Years building software', value: '3+' },
-    { label: 'Projects shipped', value: '20+' },
-    { label: 'Technologies', value: '15+' },
+    { label: 'Current CGPA', value: '8.2' },
+    { label: 'Projects Built', value: '5+' },
+    { label: 'Certifications', value: '6+' },
   ],
 }
 
 export const skills = [
   {
-    category: 'Frontend',
-    items: ['React', 'JavaScript (ES6+)', 'TypeScript', 'Tailwind CSS', 'HTML5 & CSS3', 'Redux'],
+    category: 'Testing & Automation',
+    items: ['Manual Testing', 'Selenium WebDriver (Java)', 'Test Case Design', 'Regression Testing', 'UAT'],
   },
   {
-    category: 'Backend',
-    items: ['Node.js', 'Express', 'REST APIs', 'GraphQL', 'Python'],
+    category: 'Monitoring & Dashboards',
+    items: ['Grafana', 'Prometheus', 'Amazon AWS CloudWatch'],
   },
   {
-    category: 'Database & DevOps',
-    items: ['MongoDB', 'PostgreSQL', 'Docker', 'Git & GitHub', 'CI/CD', 'AWS'],
+    category: 'Programming Languages',
+    items: ['Java', 'Python', 'C', 'Shell Scripting'],
   },
   {
-    category: 'Tools & Design',
-    items: ['Figma', 'VS Code', 'Postman', 'Jest', 'Framer Motion'],
+    category: 'Database & Tools',
+    items: ['SQL', 'SQLyog', 'Oracle'],
+  },
+  {
+    category: 'Backend & Web',
+    items: ['Spring Boot', 'Java 21', 'REST APIs', 'Microservices', 'API Gateway', 'PHP', 'HTML', 'CSS'],
+  },
+  {
+    category: 'Developer Tools',
+    items: ['VS Code', 'Jira', 'Spring Tool Suite'],
   },
 ]
 
 export const projects = [
   {
-    title: 'E-Commerce Platform',
+    title: 'ECOMVERSE — Microservices E-Commerce Platform',
     description:
-      'A full-featured storefront with product search, cart, checkout, and an admin dashboard for inventory and orders.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      'Architected a microservices-based e-commerce platform in Spring Boot & Java 21 with independent services for products, orders, payments, and wallets, plus an API Gateway for routing and auth, Razorpay payment integration, and Payment/Order MIS modules.',
+    tags: ['Spring Boot', 'Java 21', 'REST APIs', 'Razorpay', 'Microservices'],
     gradient: 'from-brand-500 to-fuchsia-500',
     liveUrl: '#',
     codeUrl: '#',
     featured: true,
   },
   {
-    title: 'Real-Time Chat App',
+    title: 'VERIFACT — AI-Based Fake News Detection',
     description:
-      'A WebSocket-based messaging app with rooms, typing indicators, and message persistence.',
-    tags: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
+      'A fake-news detection system using BERT for semantic analysis and claim extraction, Tesseract OCR for text-in-image extraction, and FFmpeg/MoviePy for video frame processing, served through a Flask backend.',
+    tags: ['Python', 'BERT', 'OpenCV', 'FastAPI', 'FFmpeg'],
     gradient: 'from-emerald-500 to-teal-500',
     liveUrl: '#',
     codeUrl: '#',
     featured: true,
   },
   {
-    title: 'Task Management Board',
+    title: 'College Website with Biometric Attendance',
     description:
-      'A drag-and-drop Kanban board with team workspaces, due dates, and activity history.',
-    tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+      'A college portal with role-based logins for teachers, students, admin, and librarians, an SMTP-based notification system, and an Arduino-driven fingerprint attendance system with real-time results.',
+    tags: ['HTML', 'CSS', 'PHP', 'Arduino'],
     gradient: 'from-orange-400 to-rose-500',
     liveUrl: '#',
     codeUrl: '#',
     featured: true,
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A location-aware weather app with animated forecasts and saved locations.',
-    tags: ['React', 'API Integration', 'Chart.js'],
+    title: 'Volume Control Using Hand Gesture',
+    description: 'Real-time computer vision app that lets users control system volume using finger gestures.',
+    tags: ['Python', 'OpenCV'],
     gradient: 'from-sky-400 to-brand-600',
     liveUrl: '#',
     codeUrl: '#',
     featured: false,
   },
   {
-    title: 'Markdown Blog Engine',
-    description: 'A statically generated blog with MDX support, tags, and full-text search.',
-    tags: ['Next.js', 'MDX', 'Tailwind'],
+    title: 'Password Manager',
+    description: 'A Java desktop application for securely storing and retrieving login credentials via JDBC and SQL.',
+    tags: ['Java', 'JDBC', 'AWT', 'SQL'],
     gradient: 'from-violet-500 to-indigo-600',
-    liveUrl: '#',
-    codeUrl: '#',
-    featured: false,
-  },
-  {
-    title: 'Personal Finance Tracker',
-    description: 'Budget tracking with charts, category breakdowns, and CSV import/export.',
-    tags: ['React', 'Redux', 'Recharts'],
-    gradient: 'from-amber-400 to-orange-600',
     liveUrl: '#',
     codeUrl: '#',
     featured: false,
@@ -106,32 +107,32 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    period: '2024 — Present',
+    role: 'IT Intern — Quality Assurance & Testing',
+    company: 'Sahaj Retail Limited (Fintech)',
+    period: 'September 2025 — Present',
     description:
-      'Building and maintaining customer-facing React applications, improving load times and accessibility across the product.',
-  },
-  {
-    role: 'Software Engineering Intern',
-    company: 'StartUp Labs',
-    period: '2023 — 2024',
-    description:
-      'Worked across the stack on a SaaS product, shipping features from database schema to UI, in a small fast-moving team.',
-  },
-  {
-    role: 'Freelance Web Developer',
-    company: 'Self-employed',
-    period: '2022 — 2023',
-    description:
-      'Designed and built websites for small businesses, handling everything from client requirements to deployment.',
+      'Perform end-to-end manual and automated testing (Selenium/Java) across a fintech web portal and mobile app, covering functional, regression, and UAT cycles. Build real-time Grafana dashboards on Prometheus and AWS CloudWatch metrics, validate backend data with SQL in SQLyog, and manage defects through Jira within an Agile team.',
   },
 ]
 
 export const education = [
   {
-    degree: 'B.Tech in Computer Science',
-    school: 'University Institute of Technology',
-    period: '2021 — 2025',
+    degree: 'Master of Computer Application (MCA)',
+    school: 'Seacom Engineering College, MAKAUT — Howrah, West Bengal',
+    period: '2024 — Pursuing',
   },
+  {
+    degree: 'B.Sc. in Computer Science (Honours) — CGPA: 8.2',
+    school: 'Seth Anandram Jaipuria College, Calcutta University — Kolkata, West Bengal',
+    period: '2021 — 2024',
+  },
+]
+
+export const certifications = [
+  'IBM SkillsBuild — What is IoT, AI in Practice',
+  '2nd Position, NEO-NEXUS Codathon — Seacom Engineering College, May 2025',
+  'Python Essentials — Cisco',
+  'Data Analytics Job Simulation — Deloitte',
+  'SQL Basic and Python Basic — HackerRank',
+  'Career Edge – Young Professional — TCS',
 ]

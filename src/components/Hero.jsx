@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion'
-import { FiArrowDown, FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi'
+import { FiArrowDown, FiCode, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 import { profile } from '../data/portfolio'
 
 const iconMap = {
   github: FiGithub,
   linkedin: FiLinkedin,
-  twitter: FiTwitter,
+  hackerrank: FiCode,
   mail: FiMail,
 }
 

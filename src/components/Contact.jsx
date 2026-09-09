@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiCheckCircle, FiMail, FiMapPin, FiSend } from 'react-icons/fi'
+import { FiCheckCircle, FiMail, FiMapPin, FiPhone, FiSend } from 'react-icons/fi'
 import { profile } from '../data/portfolio'
 import SectionHeading from './SectionHeading'
 
@@ -71,6 +71,20 @@ export default function Contact() {
                   className="text-sm text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-brand-400"
                 >
                   {profile.email}
+                </a>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-50 text-brand-600 dark:bg-brand-500/10 dark:text-brand-400">
+                <FiPhone size={18} />
+              </div>
+              <div>
+                <p className="font-semibold text-slate-900 dark:text-white">Phone</p>
+                <a
+                  href={`tel:${profile.phone.replace(/\s+/g, '')}`}
+                  className="text-sm text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-brand-400"
+                >
+                  {profile.phone}
                 </a>
               </div>
             </div>

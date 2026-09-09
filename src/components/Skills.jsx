@@ -12,7 +12,7 @@ export default function Skills() {
           description="A snapshot of the languages, frameworks, and tools I use to build products."
         />
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skills.map((group, i) => (
             <motion.div
               key={group.category}
