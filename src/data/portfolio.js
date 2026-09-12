@@ -62,7 +62,7 @@ export const projects = [
     tags: ['Kotlin', 'Jetpack Compose', 'ML Kit', 'Room', 'Hilt', 'CameraX'],
     gradient: 'from-brand-500 to-cyan-500',
     liveUrl: '#',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/arkapravachakrabarti12-glitch/ScanFlow',
     featured: true,
   },
   {
