@@ -56,6 +56,16 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'ScanFlow — Android Document Scanner',
+    description:
+      'A native Android app for capturing, organizing, and sharing scanned documents: ML Kit-powered auto edge detection and multi-page capture, on-device OCR for full-text search, PDF export/print/share, and a Jetpack Compose + Room + Hilt architecture.',
+    tags: ['Kotlin', 'Jetpack Compose', 'ML Kit', 'Room', 'Hilt', 'CameraX'],
+    gradient: 'from-brand-500 to-cyan-500',
+    liveUrl: '#',
+    codeUrl: '#',
+    featured: true,
+  },
+  {
     title: 'ECOMVERSE — Microservices E-Commerce Platform',
     description:
       'Architected a microservices-based e-commerce platform in Spring Boot & Java 21 with independent services for products, orders, payments, and wallets, plus an API Gateway for routing and auth, Razorpay payment integration, and Payment/Order MIS modules.',
