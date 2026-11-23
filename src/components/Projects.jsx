@@ -13,7 +13,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Portfolio"
           title="Featured projects"
-          description="A selection of things I've built recently. Each one taught me something new."
+          description="A selection of QA engagements and builds I've worked on recently."
         />
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

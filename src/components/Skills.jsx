@@ -8,8 +8,8 @@ export default function Skills() {
       <div className="section-container">
         <SectionHeading
           eyebrow="Skills"
-          title="Technologies I work with"
-          description="A snapshot of the languages, frameworks, and tools I use to build products."
+          title="Tools & technologies I work with"
+          description="A snapshot of the testing practices, monitoring tools, and technologies I use day to day."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
